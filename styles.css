@@ -39,7 +39,7 @@ button:focus {
     margin-bottom: 1em;
     background: rgb(105, 0, 105);
     color: gold;
-    border: black 1px solid;
+    /* border: black 1px solid; */
 }
 
 .container {
@@ -50,7 +50,7 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .left-column {
