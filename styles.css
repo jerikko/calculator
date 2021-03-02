@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    background: rgb(255, 238, 139);
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(105, 0, 105);
+}
+
+button {
+    font-family: inherit;
+    font-size: 1em;
+    width: 100%;
+    padding: 1.5em 1em;
+    color: gold;
+    background: rgb(105, 0, 105);
+    border: gold 1px solid;
+}
+
+button:hover, 
+button:focus {
+    background:rgb(129, 0, 129);
+    color: rgb(207, 176, 0);
+    cursor: pointer;
+}
+
+.display {
+    text-align: right;
+    font-size: 2rem;
+    padding: 1em;
+    width: 38.5%;
+    max-width: 350px;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    background: rgb(105, 0, 105);
+    color: gold;
+    border: black 1px solid;
+}
+
+.container {
+    width: 50%;
+    max-width: 425px;
+    min-width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px red solid;
+}
+
+.left-column {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: blue 1px solid; */
+}
+
+.zero {
+    width: 67%;
+}
+
+.decimal {
+    width: 33%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    /* border: purple 1px solid; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: green 1px solid; */
+}
